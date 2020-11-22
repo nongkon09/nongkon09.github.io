@@ -9,6 +9,9 @@ His interests include computer and network security, information security, compu
 
 His hobbies include badminton, football
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Certificate
 1. Security+ | CompTIA
 1. MCSA Windows Server 2016 | Microsoft
