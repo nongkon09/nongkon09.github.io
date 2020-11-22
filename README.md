@@ -12,8 +12,11 @@ His hobbies include badminton, football
 
 
 ## Certificate
-1. Security+ | CompTIA
-1. MCSA Windows Server 2016 | Microsoft
-1. Microsoft Azure Fundamental | Microsoft
-1. Introduction to Cybersecurity | Cisco Networking Academy
+
+Cert name | Issuer
+------ | ------
+Security+ | CompTIA
+MCSA Windows Server 2016 | Microsoft
+Microsoft Azure Fundamental | Microsoft
+Introduction to Cybersecurity | Cisco Networking Academy
 
