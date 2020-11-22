@@ -5,8 +5,8 @@ MR. Thanakorn Prajuabkamon started his career as system engineer at Wealth manag
 
 His interests include computer and network security, information security, computer networks.
 
-His hobbies include badminton, football
-![](tanakon_bio.jpg){:height="25%" width="25%" style="float: left" padding-right:10px}
+His hobbies include badminton, football:
+![](tanakon_bio.jpg){:height="25%" width="25%" style="float: right"}
 ## Certificate
 1. Security+ | CompTIA
 1. MCSA Windows Server 2016 | Microsoft
