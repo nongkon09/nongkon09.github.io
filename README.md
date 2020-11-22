@@ -12,18 +12,8 @@ His interests include computer and network security, information security, compu
 His hobbies include badminton, football
 </p>
 <h1>Certificate</h1>
-<ol>
-<li>
-Security+ | CompTIA
-</li>
-<li>
-MCSA Windows Server 2016| Microsoft
-</li>
-<li>
-Microsoft Azure Fundamental| Microsoft
-</li>
-<li>
-Introduction to Cybersecurity| Cisco Networking Academy
-</li>
-</ol>
+1.Security+ | CompTIA
+2.MCSA Windows Server 2016| Microsoft
+3.Microsoft Azure Fundamental| Microsoft
+4.Introduction to Cybersecurity| Cisco Networking Academy
 <img src="tanakon_bio.jpg">
