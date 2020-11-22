@@ -26,4 +26,4 @@ Microsoft Azure Fundamental| Microsoft
 Introduction to Cybersecurity| Cisco Networking Academy
 </li>
 </ol>
-<img src="tanakon_bio.jpg" width="600" height="600">
+<img src="tanakon_bio.jpg">
