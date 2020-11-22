@@ -1,4 +1,4 @@
-![](tanakon_bio.jpg){:height="70%" width="70%"} | 
+![](tanakon_bio.jpg){:height="25%" width="25%" style="float: left"}
 ## Biography
 MR. Thanakorn Prajuabkamon received his BSc in computer science from Siam university in 2011, respectively. He also studying MSc in Network engineering and information security at Mahanakorn university of technology.
 
