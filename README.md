@@ -12,7 +12,7 @@ His interests include computer and network security, information security, compu
 His hobbies include badminton, football
 </p>
 <h1>Certificate</h1>
-<ul>
+<ol>
 <li>
 CompTIA | Security+
 </li>
@@ -25,5 +25,5 @@ Microsoft Azure Fundamental| Microsoft
 <li>
 Introduction to Cybersecurity| Cisco Networking Academy
 </li>
-</ul>
-<img src="tanakon_bio.jpg" width="500" height="600">
+</ol>
+<img src="tanakon_bio.jpg" width="600" height="600">
