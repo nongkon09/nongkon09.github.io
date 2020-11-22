@@ -13,4 +13,5 @@ His hobbies include badminton, football
 1. MCSA Windows Server 2016 | Microsoft
 1. Microsoft Azure Fundamental | Microsoft
 1. Introduction to Cybersecurity | Cisco Networking Academy
-<img src="tanakon_bio.jpg">
+
+![Tux, the Linux mascot](tanakon_bio.jpg)
