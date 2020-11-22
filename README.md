@@ -14,7 +14,7 @@ His hobbies include badminton, football
 <h1>Certificate</h1>
 <ol>
 <li>
-CompTIA | Security+
+Security+ | CompTIA
 </li>
 <li>
 MCSA Windows Server 2016| Microsoft
