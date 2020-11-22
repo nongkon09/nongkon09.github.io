@@ -1,5 +1,5 @@
 ## Biography :
-![](tanakon_bio.jpg){:height="18%" width="18%" style="float: left"}
+![](tanakon_bio.jpg){:height="18%" width="18%" style="float: right"}
 MR. Thanakorn Prajuabkamon received his BSc in computer science from Siam university in 2011, respectively. He also studying MSc in Network engineering and information security at Mahanakorn university of technology.
 
 MR. Thanakorn Prajuabkamon started his career as system engineer at Wealth management system company limited in 2011 and now working as IT security at Thai Credit Retail Bank PCL.
