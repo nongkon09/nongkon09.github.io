@@ -1,4 +1,5 @@
 # nongkon09.github.io NEIS0736
+![](tanakon_bio.jpg = 100x200)
 ## Biography
 MR. Thanakorn Prajuabkamon received his BSc in computer science from Siam university in 2011, respectively. He also studying MSc in Network engineering and information security at Mahanakorn university of technology.
 
@@ -14,4 +15,3 @@ His hobbies include badminton, football
 1. Microsoft Azure Fundamental | Microsoft
 1. Introduction to Cybersecurity | Cisco Networking Academy
 
-![Tux, the Linux mascot](tanakon_bio.jpg)
