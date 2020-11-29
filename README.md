@@ -18,3 +18,5 @@ MCSA Windows Server 2016 | Microsoft
 Microsoft Azure Fundamental | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
 
+## AKA
+Korn
