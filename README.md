@@ -6,8 +6,8 @@ Thanakorn Prajuabkamon started his career as system engineer at Wealth managemen
 His interests include computer and network security, information security, computer networks.
 
 ## Hobbies
-1.Badminton
-2.Football
+1. Badminton
+1. Football
 
 ## Certificate
 
