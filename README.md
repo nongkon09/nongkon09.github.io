@@ -19,4 +19,4 @@ Microsoft Azure Fundamental | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
 
 ## AKA
-Korn
+NonGKoN Hot Head
