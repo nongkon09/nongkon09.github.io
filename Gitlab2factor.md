@@ -1,7 +1,7 @@
 ## การ Generate Access Token เพื่อใช้งาน Gitlab ที่เปิด 2 factor authentication
 Author : Thanakorn P.
 Create date : 30 Nov 2020
-***
+___
 หากท่านใดมีปัญหาการ clone git จาก gitlab แล้ว repository นั้นต้องการยืนยันตัวตนของท่านด้วย account ของ Gitlab แต่เผอิญ Gitlab ของท่าน ดันเปิด 2 factor authentication เอาไว้ ทำให้ไม่สามารถ clone repository วันนี้ **เรามีตัวช่วย!!**
 
 ก่อนอื่นให้เราไป Generate "Access token" ที่ Gitlab ของเราก่อน
