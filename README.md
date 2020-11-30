@@ -20,3 +20,6 @@ Introduction to Cybersecurity | Cisco Networking Academy
 
 ## AKA
 NonGKoN Hot Head
+
+## Knowledge Base
+[วิธีการ Generate Access Token เพื่อ login กับ Gitlab ที่เปิด 2 factor authentication](https://nongkon09.github.io/Gitlab2factor)
