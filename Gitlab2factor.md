@@ -13,7 +13,7 @@
 ![](img/Token.png)
 
 จากนั้นกลับมาที่ Github Desktop ของเรา Clone ด้วย pattern นี้
-https://oauth2:[Access Token]@gitlab.com/project
+`https://oauth2:[Access Token]@gitlab.com/project`
 ![](img/GitHubClone.png)
 
 เรียบร้อย Clone ได้แล้ว
