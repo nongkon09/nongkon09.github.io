@@ -1,6 +1,8 @@
 ## การ Generate Access Token เพื่อใช้งาน Gitlab ที่เปิด 2 factor authentication
 
-Author : Thanakorn P. | Create date : 30 Nov 2020
+| Author : Thanakorn Prajuabkamon |
+|---|
+| Create date : 30 Nov 2020 |
 
 ___
 
