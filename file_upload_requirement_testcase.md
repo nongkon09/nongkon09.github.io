@@ -6,6 +6,6 @@
 
 ## Powered By
 ___
-* 6217810015 Mr. Suntisuk Thepthong 
-* 6217810017 Mr. Thanakorn Prajuabkamon
-* 6117810017 Ms. Shirassuda Thongpakdhi
+* Mr. Suntisuk Thepthong 
+* Mr. Thanakorn Prajuabkamon
+* Ms. Shirassuda Thongpakdhi
