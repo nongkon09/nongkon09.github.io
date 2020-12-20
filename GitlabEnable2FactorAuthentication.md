@@ -1,7 +1,8 @@
 # How to enable Two-Factor authentication on GitLab.com
 ***
+
 |***Date***|20-12-2020|
-|---|---|
+| ---- | ---- |
 |***Author***|Thanakorn Prajuabkamon|
 ||Vatcharin Kongsakul|
 
