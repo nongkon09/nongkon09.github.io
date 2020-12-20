@@ -7,6 +7,7 @@
 |  | Vatcharin Kongsakul |
 
 ***
+
 1. ทำการ login เข้า Gitlab และไปที่ Setting --> Account จะพบ Button ให้ทำการ enable Two-Factor Authentication
 
 ![](img/Enable2factor-1.jpg)
