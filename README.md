@@ -22,5 +22,6 @@ Introduction to Cybersecurity | Cisco Networking Academy
 NonGKoN Hot Head
 
 ## Knowledge Base
-[วิธีการ Generate Access Token เพื่อ login กับ Gitlab ที่เปิด 2 factor authentication](https://nongkon09.github.io/Gitlab2factor)  
-[Upload Requirement Testcase](https://nongkon09.github.io/file_upload_requirement_testcase)
+* [วิธีการ Generate Access Token เพื่อ login กับ Gitlab ที่เปิด 2 factor authentication](https://nongkon09.github.io/Gitlab2factor)  
+* [Upload Requirement Testcase](https://nongkon09.github.io/file_upload_requirement_testcase)
+* [Enable Two-Factor Authenticaion on GitLab.com](https://nongkon09.github.io/GitlabEnable2FactorAuthenticaiotn)
