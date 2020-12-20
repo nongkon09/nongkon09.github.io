@@ -1,10 +1,10 @@
 # How to enable Two-Factor authentication on GitLab.com
 ***
 
-|***Date***|20-12-2020|
+| ***Date*** | 20-12-2020 |
 | ---- | ---- |
-|***Author***|Thanakorn Prajuabkamon|
-||Vatcharin Kongsakul|
+| ***Author*** | Thanakorn Prajuabkamon |
+|  | Vatcharin Kongsakul |
 
 ***
 1. ทำการ login เข้า Gitlab และไปที่ Setting --> Account จะพบ Button ให้ทำการ enable Two-Factor Authentication
