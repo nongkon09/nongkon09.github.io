@@ -54,6 +54,7 @@ drwxr-xr-x  6 korn  staff  192 Jan  6 23:14 venv
 
 วันนี้เรามีทางออกมานำเสนอ โดยการใช้ function shlex.quote() โดยเมื่อนำมาใช้แล้ว หน้าตาของ code ก็จะประมาณนี้
 และเมื่อทำการทดสอบ 
+
 ***Source code (with shlex)***
 
 ```python
@@ -83,6 +84,8 @@ Address: 216.58.221.206
 ```
 
 และเมื่อทดสอบด้วย OS command injection ดูจะพบว่าโปรแกรม ***พัง...*** ไม่สามารถทำงานได้
+
+***Program result (with shlex and OS Command Injection)***
 
 ```sh
 Enter your domain name: google.com && ls -la
