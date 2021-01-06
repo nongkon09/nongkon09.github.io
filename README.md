@@ -25,3 +25,4 @@ NonGKoN Hot Head
 * [วิธีการ Generate Access Token เพื่อ login กับ Gitlab ที่เปิด 2 factor authentication](https://nongkon09.github.io/Gitlab2factor)  
 * [Upload Requirement Testcase](https://nongkon09.github.io/file_upload_requirement_testcase)
 * [Enable Two-Factor Authenticaion on GitLab.com](https://nongkon09.github.io/GitlabEnable2FactorAuthentication)
+* [Prevent OS command injection vulnerabilities in Python by shlex.quote()](https://nongkon09.github.io/HowToProtectOSCommandInjection)
