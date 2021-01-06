@@ -100,7 +100,8 @@ subprocess.CalledProcessError: Command 'nslookup 'google.com && ls -la'' returne
 
 Process finished with exit code 1
 ```
-### อธิบาย ### 
+
+### อธิบาย ###
 
 เนื่องจากการใช้ function shlex.quote() จะทำให้ input ที่เข้าสู่โปรแกรมจะถูกใส่ '' (quote) ทำให้ OS คิดว่า input ที่เข้ามาเป็น string ชุดเดียว ***เสมอ***
 
