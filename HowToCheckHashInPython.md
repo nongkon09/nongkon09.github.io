@@ -37,4 +37,4 @@ hash value : 6e1267b937252d9efc44d2f891a830713f3825e88e6a3650addf4b1a805248fa
 
 จะเห็นได้ว่าการ Generate Hash value นั้นไม่อยากเลย ก็ลองนำไปปรับใช้ในงานที่ต้องการ check Integrity ของ file กันดูนะครับ
 
-***ref*** : https://pypi.org/project/filehash/
+***ref*** : [https://pypi.org/project/filehash/](https://pypi.org/project/filehash/)
