@@ -31,3 +31,4 @@ NonGKoN Hot Head
   * [Prevent OS command injection vulnerabilities in Python by shlex.quote()](https://nongkon09.github.io/HowToProtectOSCommandInjection)
   * [How to check file hash in python](https://nongkon09.github.io/HowToCheckHashInPython)
   * [How to validate E-mail pattern in python](https://nongkon09.github.io/HowToValidateEmailPatternInPython)
+  * [How to generate strong password in python](https://nongkon09.github.io/HowToGenerateStrongPassword)
