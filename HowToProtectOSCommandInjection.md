@@ -1,6 +1,7 @@
 # Prevent OS command injection vulnerabilities in Python by shlex.quote()
 
 ![](/img/os-command-injection-cwe-78.jpg)
+
 Credit Img : [https://www.immuniweb.com/vulnerability/os-command-injection.html](https://www.immuniweb.com/vulnerability/os-command-injection.html)
 
 | ***Date*** | 10-01-2021 |
