@@ -1,6 +1,6 @@
 # How to check file hash in python
 
-| ***Date*** | xx-01-2021 |
+| ***Date*** | 11-01-2021 |
 | --- | --- |
 | ***Author*** | Thanakorn P. |
 

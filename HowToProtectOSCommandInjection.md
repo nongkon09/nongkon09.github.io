@@ -6,7 +6,7 @@ Credit Img : [https://www.immuniweb.com/vulnerability/os-command-injection.html]
 
 | ***Date*** | 10-01-2021 |
 | --- | --- |
-| ***author*** | Thanakorn P. |
+| ***Author*** | Thanakorn P. |
 
 ปกติการเขียนโปรแกรมนั้น สิ่งแรกที่คนเขียนโปรแกรมจะคิดถึงเป็นส่วนใหญ่ ก็คือ โปรแกรมต้องทำงานตาม requirement ที่ได้รับเป็นอันดับแรก เช่นโปรแกรมตามด้านล่างนี้ requirement ก็คือการรับค่า domain name จากผู้ใช้งาน และนำไปหาค่า IP address ของ Domain นั้นๆ มาแสดง
 
