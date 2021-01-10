@@ -44,10 +44,12 @@ check_email_pattern(injection)
 
 ***Result***
 ```python
-E-mail pattern is not valid.
+E-mail pattern is invalid.
 E-mail pattern is valid.
 E-mail pattern is valid.
-E-mail pattern is not valid.
+E-mail pattern is invalid.
 ```
 
 จาก Result จะเห็นได้ว่าการใช้ Regular expression นั้นมีประโยชน์หลายด้าน ไม่ว่าจะเป็นในด้านการนำ input ไปใช้งาน ทำให้ได้ input ที่ตรงตามความต้องการของโปรแกรมมากขึ้น ช่วยป้อง input ที่มีความมุ่งร้ายต่อโปรแกรม อธิเช่น การทำ [Injection](https://owasp.org/www-project-top-ten/2017/A1_2017-Injection) ต่างๆ
+
+ref : []()
