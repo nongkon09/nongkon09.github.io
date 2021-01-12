@@ -33,3 +33,4 @@ NonGKoN Hot Head
   * [How to validate E-mail pattern in python](https://nongkon09.github.io/HowToValidateEmailPatternInPython)
   * [How to generate strong password in python](https://nongkon09.github.io/HowToGenerateStrongPassword)
   * [How to download file from SFTP server in python](https://nongkon09.github.io/HowtoDownloadFileFromSFTP)
+  * [How to send email by secure connection in python](https://nongkon09.github.io/HowtoSendEmailBySecureConnection)
