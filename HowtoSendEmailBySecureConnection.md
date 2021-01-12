@@ -47,7 +47,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
 
 หวังว่าบทความนี้จะช่วยเพิ่มความปลอดภัยให้กับการส่ง email ด้วย ภาษา Python ไม่มากก็น้อยนะครับ 
 
-***ref*** |      
------ | -----
+| ***reference***   
+| -----
 | [https://docs.python.org/3/library/ssl.html#ssl.PROTOCOL_TLS](https://docs.python.org/3/library/ssl.html#ssl.PROTOCOL_TLS)
 |[https://docs.python.org/3/library/smtplib.html](https://docs.python.org/3/library/smtplib.html)
