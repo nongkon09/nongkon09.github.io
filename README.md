@@ -16,6 +16,7 @@ Cert name | Issuer
 Security+ | CompTIA
 MCSA Windows Server 2016 | Microsoft
 Microsoft Azure Fundamental | Microsoft
+Microsoft Certified Trainer | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
 
 ## AKA
