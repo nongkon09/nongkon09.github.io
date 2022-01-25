@@ -39,3 +39,6 @@ NonGKoN Hot Head
 
 * DevSecOps
   * [Install Portainer](https://nongkon09.github.io/InstallPortainer)
+
+* Linux Administrator
+  * [Change Linux Default NIC name to eth](https://nongkon09.github.io/ChangeDefaultNICnameLinux)
