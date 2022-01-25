@@ -34,4 +34,6 @@ vi /etc/sysconfig/network-scripts/ifcfg-eth0
 
 ![](img/changenicname/../linux/ChangeNicName2.png)
 
-จากนั้นทำการ save file และ ทำการ reboot ก็เรียบร้อย
+จากนั้นทำการ save file และ ทำการ reboot และทำการตรวจสอบชื่อ NIC ก็เรียบร้อย
+
+![](img/changenicname/../linux/ChangeNicName3.png)
