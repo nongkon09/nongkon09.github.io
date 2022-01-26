@@ -118,7 +118,7 @@ unzip v2.18.0.zip
 pip3 install -r requirements.txt
 ```
 
-รอซักครู่นึง เมื่อเครื่อง bastion ทำการ install ตาม requirement เรียบร้อยแล้ว ให้ run command ตามด้านล่างนี้ จะได้ผมลัพท์ตามรูป
+รอซักครู่นึง เมื่อเครื่อง bastion ทำการ install ตาม requirement เรียบร้อยแล้ว ให้ run command ตามด้านล่างนี้ จะได้ผลลัพท์ตามรูป
 
 ```sh
 cp -rfp inventory/sample inventory/mycluster
