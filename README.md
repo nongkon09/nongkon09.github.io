@@ -39,6 +39,7 @@ NonGKoN Hot Head
 
 * DevSecOps
   * [Install Portainer](https://nongkon09.github.io/InstallPortainer)
+  * [Install K8S by Kubespray](https://nongkon09.github.io/InstallK8SByKubespray)
 
 * Linux Administrator
   * [Change Linux Default NIC name to eth](https://nongkon09.github.io/ChangeDefaultNICnameLinux)

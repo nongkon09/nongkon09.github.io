@@ -12,10 +12,10 @@
 
 โดยเครื่อง Server ที่ใช้ทำเป็น node และ bastion ทั้งหมดจะใช้ configuration ดังนี้ครับ
 
-| OS | Almalinux 8.4 (minimal and standard install) |
+| OS | Almalinux 8.5 (minimal and standard install) |
 | --- | --- |
 | CPU | 2 core |
-| Memory | 4 GB |
+| Memory | 3 GB |
 | Disk | 30 GB |
 
 และมี fix ip address ดังนี้
