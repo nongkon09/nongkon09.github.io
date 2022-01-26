@@ -8,7 +8,7 @@
 
 ควรเข้าใจ command ของ linux เบื้องต้น และ เราจะเริ่มโดยการเตรียมเครื่อง Server ทั้งหมดดังภาพดังล่าง
 
-![](img/InstallKube/diagram.png)
+![](img/installKube/diagram.png)
 
 โดยเครื่อง Server ที่ใช้ทำเป็น node และ bastion ทั้งหมดจะใช้ configuration ดังนี้ครับ
 
@@ -30,7 +30,7 @@
 Server ทุกเครื่องจะถูกปิด swap โดยวิธีการดังนี้
 * ทำการ comment code ใน file /etc/fstab ตามรูปภาพ
   
-  ![](img/InstallKube/pre-requisite1.png)
+  ![](img/installKube/pre-requisite1.png)
 
 * run command
 
@@ -39,7 +39,7 @@ swapoff -a
 ```
 * ทำการปรับโหมดของ selinux จาก enforcing เป็น permissive โดยแก้ file /etc/selinux/config ตามภาพ
 
-  ![](img/InstallKube/pre-requisite4.png)
+  ![](img/installKube/pre-requisite4.png)
 
 * และทำการ reboot
 
@@ -54,7 +54,7 @@ ssh-keygen
 ```
 และทำการ enter 2-3 ครั้ง เพื่อใช้ค่า default ในการ generate key ตามรูปด้านล่าง
 
-  ![](img/InstallKube/pre-requisite2.png)
+  ![](img/installKube/pre-requisite2.png)
 
 * จากนั้นทำการ copy public key ไปยังเครื่อง node ต่างๆ โดยใช้ command
 
@@ -64,7 +64,7 @@ ssh-copy-id [user]@[node ip address]
 
 ตามตัวอย่าง จะเป็นการ copy ssh public key ไปยังเครื่อง 192.168.30.11 โดยใช้ user root
 
- ![](img/InstallKube/pre-requisite3.png)
+ ![](img/installKube/pre-requisite3.png)
 
 ทำให้ครบทุก node
  ___________________________________________
@@ -109,7 +109,7 @@ unzip v2.18.0.zip
 
 เราก็จะได้ Directory kubespray-2.18.0 มาตามรูป
 
- ![](img/InstallKube/install-k8s.png)
+ ![](img/installKube/install-k8s.png)
 
 จากนั้น cd เข้าไปยัง Directory kubespray-2.18.0 และ run command เพื่อติดตั้ง package ของ python ตาม requirement ของ kubespray
 
@@ -125,7 +125,7 @@ declare -a IPS=([node1 ip] [node2 ip] [node3 ip] [node4 ip])
 CONFIG_FILE=inventory/mycluster/hosts.yaml python3 contrib/inventory_builder/inventory.py ${IPS[@]}
 ```
 
- ![](img/InstallKube/install-k8s-2.png)
+ ![](img/installKube/install-k8s-2.png)
 
 ทำการ check configuration อีกรอบด้วย command
 
@@ -150,4 +150,4 @@ kubectl get nodes
 
 ถ้าได้ผลลัพท์ตามรูปด้านล่าง ถือว่าเป็นอันเรียบร้อย สำหรับการ install K8S ด้วย kubespray
 
- ![](img/InstallKube/install-k8s-3.png)
+ ![](img/installKube/install-k8s-3.png)
