@@ -86,7 +86,7 @@ systemctl stop firewalld
 systemctl disable firewalld
 ```
 
-ครบทุก node แล้ว ก็จะไปยังขั้นนตอนต่อไปครับ
+ครบทุก node แล้ว ก็จะไปยังขั้นตอนต่อไปครับ
 
 ## Install K8S cluster
 
