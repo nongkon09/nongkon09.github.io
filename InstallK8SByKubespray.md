@@ -67,6 +67,7 @@ ssh-copy-id [user]@[node ip address]
  ![](img/installKube/pre-requisite3.png)
 
 ทำให้ครบทุก node
+
  ___________________________________________
 
  ต่อมาเราจะทำการ install package พื้นฐานให้กับทุกเครื่อง
