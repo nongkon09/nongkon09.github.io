@@ -12,16 +12,18 @@
 
 โดยเครื่อง Server ที่ใช้ทำเป็น node และ bastion ทั้งหมดจะใช้ configuration ดังนี้ครับ
 
-| OS | Almalinux 8.5 (minimal and standard install) |
+| Node spec| |
 | --- | --- |
+| OS | Almalinux 8.5 (minimal and standard install) 
 | CPU | 2 core |
 | Memory | 3 GB |
 | Disk | 30 GB |
 
 และมี fix ip address ดังนี้
 
-| Bastion | 192.168.30.10 |
+| IP Address |  |
 | --- | --- |
+| Bastion | 192.168.30.10 |
 | node1 | 192.168.30.11 |
 | node2 | 192.168.30.12 |
 | node3 | 192.168.30.13 |
