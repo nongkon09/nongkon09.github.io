@@ -8,14 +8,7 @@
 
 ควรเข้าใจ command ของ linux เบื้องต้น และ เราจะเริ่มโดยการเตรียมเครื่อง Server ทั้งหมดดังภาพดังล่าง
 
-```mermaid
-graph TD;
-    Admin_Laptop -- ssh --> Bastion;
-    Bastion -- ssh --> node1;
-    Bastion -- ssh --> node2;
-    Bastion -- ssh --> node3;
-    Bastion -- ssh --> node4;
-```
+![](img/installKube/diagram.png)
 
 โดยเครื่อง Server ที่ใช้ทำเป็น node และ bastion ทั้งหมดจะใช้ configuration ดังนี้ครับ
 
