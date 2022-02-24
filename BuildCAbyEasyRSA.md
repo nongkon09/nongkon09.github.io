@@ -21,7 +21,7 @@ wget https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.8/EasyRSA-3.0.8.
 จากนั้นทำการ Extract package ด้วย command
 
 ```sh
-tar -xvf EasyRSA-3.0.8
+tar -xvf EasyRSA-3.0.8.tgz
 ```
 
 เราก็จะได้ Directory EasyRSA-3.0.8 มา ให้ทำการ cd เข้าไปด้านใน
