@@ -1,5 +1,9 @@
 # How to build easy Certificate Authority
 
+| ***Date*** | 24-02-2022 |
+| --- | --- |
+| ***Author*** | Thanakorn P. |
+
 วันนี้เราจะมาลองทำ Certificate Authority ง่ายๆ เพื่อใช้ Issue certificate สำหรับ lab ต่างๆ ของเรากันครับ
 
 ทำการ install tool ต่างๆ เพื่อใช้งานเกี่ยวกับการ install easyrsa กัน
