@@ -18,6 +18,7 @@ MCSA Windows Server 2016 | Microsoft
 Microsoft Azure Fundamental | Microsoft
 Microsoft Certified Trainer | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
+EC-Council Certified Security Specialist | EC-Council
 
 ## AKA
 NonGKoN Hot Head
