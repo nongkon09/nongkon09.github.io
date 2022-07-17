@@ -32,6 +32,25 @@
 dnf install net-tools epel-release vim nginx keepalived -y
 ```
 
+ทำการสร้างหน้า web ให้กับ NGINX ด้วยคำสั่ง (ในคำสั่งจะเป็นของเครื่อง A ถ้าทำเครื่อง B ก็ให้ เปลี่ยนจาก A เป็น B นะครับ จะได้สังเกตุได้ง่าย)
+
+```bash
+echo "<h1>NginX HA by Keepalived A</h1>" > /usr/share/nginx/html/index.html
+```
+
+ทำการ start service nginx และ allow firewall ให้สามารถเข้าดู web ของ NGINX ได้
+
+```bash
+systemctl enable nginx
+systemctl start nginx
+firewall-cmd --permanent --add-service=http
+firewall-cmd --reload
+```
+
+ลองเข้า web ทดสอบ ด้วย url http://192.168.48.101 ดู ก็จะได้หน้าตาประมาณนี้
+
+![](img/NginxHA/nginxha2.png)
+
 Keepalived MASTER server config
 
 ```
