@@ -32,7 +32,7 @@
 dnf install net-tools epel-release vim nginx keepalived -y
 ```
 
-ทำการสร้างหน้า web ให้กับ NGINX ด้วยคำสั่ง (ในคำสั่งจะเป็นของเครื่อง A ถ้าทำเครื่อง B ก็ให้ เปลี่ยนจาก A เป็น B นะครับ จะได้สังเกตุได้ง่าย)
+ทำการสร้างหน้า web ให้กับ NGINX ด้วยคำสั่ง (ในคำสั่งจะเป็นของเครื่อง A ถ้าทำเครื่อง B ก็ให้ เปลี่ยนจาก A เป็น B นะครับ จะได้สังเกตุได้ง่ายตอนทดสอบ HA)
 
 ```bash
 echo "<h1>NginX HA by Keepalived A</h1>" > /usr/share/nginx/html/index.html
@@ -51,62 +51,95 @@ firewall-cmd --reload
 
 ![](img/NginxHA/nginxha2.png)
 
-Keepalived MASTER server config
+ทำการ backup config เดิมของ keepalived
+
+```bash
+mv /etc/keepalived/keepalived.conf /etc/keepalived/keepalived.conf.org
+```
+
+สร้าง config ให้กับ keepalived ใหม่
+
+```bash
+vim /etc/keepalived/keepalived.conf
+```
+
+และใส่ config ด้านล่างนี้เข้าไป สำหรับเครื่องที่เป็น MASTER (เปลี่ยนตรง virtual_ipaddress เป็น ip ที่จะใช้เป็น VIP)
 
 ```
-global_defs {
-  # Keepalived process identifier
-  router_id nginx
-} # Script to check whether Nginx is running or not
-vrrp_script check_nginx {
-  script "/bin/check_nginx.sh"
-  interval 1
-  weight 50
-} # Virtual interface - The priority specifies the order in which the assigned interface to take over in a failover
-vrrp_instance VI_01 {
-  state MASTER
-  interface ens160
-  virtual_router_id 151
-  priority 110   # The virtual ip address shared between the two NGINX Web Server which will float
-  virtual_ipaddress {
-    192.168.48.100/24
-  }
-  track_script {
-    check_nginx
-  }
-  authentication {
-    auth_type AH
-    auth_pass secret
-  }
+vrrp_script chk_nginx {
+    script "pidof nginx"
+    interval 2
+}
+
+vrrp_instance VI_1 {
+    interface ens160
+    state MASTER
+    priority 200
+
+    virtual_router_id 33
+    virtual_ipaddress {
+      192.168.48.100/24
+    }
+    authentication {
+        auth_type AH
+        auth_pass password
+    }
+
+    track_script {
+        chk_nginx
+    }
+
 }
 ```
 
-Keepalived BACKUP server config
+และใส่ config ด้านล่างนี้เข้าไป สำหรับเครื่องที่เป็น BACKUP (เปลี่ยนตรง virtual_ipaddress เป็น ip ที่จะใช้เป็น VIP)
 
 ```
-global_defs {
-  # Keepalived process identifier
-  router_id nginx
-} # Script to check whether Nginx is running or not
-vrrp_script check_nginx {
-  script "/bin/check_nginx.sh"
-  interval 1
-  weight 50
-} # Virtual interface - The priority specifies the order in which the assigned interface to take over in a failover
-vrrp_instance VI_01 {
-  state BACKUP
-  interface ens160
-  virtual_router_id 151
-  priority 100   # The virtual ip address shared between the two NGINX Web Server which will float
-  virtual_ipaddress {
-    192.168.48.100/24
-  }
-  track_script {
-    check_nginx
-  }
-  authentication {
-    auth_type AH
-    auth_pass secret
-  }
+vrrp_script chk_nginx {
+    script "pidof nginx"
+    interval 2
+}
+
+vrrp_instance VI_1 {
+    interface ens160
+    state BACKUP
+    priority 100
+
+    virtual_router_id 33
+    virtual_ipaddress {
+      192.168.48.100/24
+    }
+    authentication {
+        auth_type AH
+        auth_pass password
+    }
+
+    track_script {
+        chk_nginx
+    }
+
 }
 ```
+
+ทำการ allow firewall และ start service ให้ keepalived 
+
+```sh
+firewall-cmd --add-rich-rule='rule protocol value="vrrp" accept' --permanent
+firewall-cmd --reload
+systemctl enable keepalived
+systemctl start keepalived
+```
+
+จากนั้นทำการ ทดสอบเข้าหน้า web ผ่าน VIP จะเห็นว่าตอนนี้ชี้ไปยังเครื่อง NGINX A
+
+![](img/NginxHA/nginxha3.png)
+
+ทดสอบการ HA ด้วยการ หยุดการทำงานของ NGINX
+
+```bash
+systemctl stop nginx
+```
+
+จะพบว่า VIP ได้ชี้ไปยัง NGINX B
+
+![](img/NginxHA/nginxha4.png)
