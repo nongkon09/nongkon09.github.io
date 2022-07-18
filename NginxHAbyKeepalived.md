@@ -1,6 +1,6 @@
 # NGINX HA by Keepalived
 
-| ***Date*** | 17-7-2022 |
+| ***Date*** | 18-7-2022 |
 | --- | --- |
 | ***Author*** | Thanakorn P. |
 
@@ -134,7 +134,7 @@ systemctl start keepalived
 
 ![](img/NginxHA/nginxha3.png)
 
-ทดสอบการ HA ด้วยการ หยุดการทำงานของ NGINX
+ทดสอบการ HA ด้วยการ หยุดการทำงานของ NGINX ที่เครื่อง NGINX A
 
 ```bash
 systemctl stop nginx
