@@ -45,6 +45,7 @@ NonGKoN Hot Head
 
 * Linux Administrator
   * [Change Linux Default NIC name to eth](https://nongkon09.github.io/ChangeDefaultNICnameLinux)
+  * [NGINX HA by Keepalived](https://nongkon09.github.io/NginxHAbyKeepalived)
 
 * Public key infrastructure
   * [Build easy CA by EasyRSA](https://nongkon09.github.io/BuildCAbyEasyRSA)
