@@ -10,7 +10,7 @@ Credit Img : [Fireship.io](https://fireship.io/)
 
 วันนี้จะมาทดลองทำ input validation โดยใช้ regular expression ผ่าน library ของ python ตัวหนึ่งที่ชื่อว่า re
 
-การใช้งาน re module จะเริ่มจากการกำหนด pattern ของ E-mail ในรูปแบบ regular expression ซึ่งโดยปกติแล้ว E-mail pattern จะมีรูปแบบคือ [e-mail user]@[domain name] 
+การใช้งาน re module จะเริ่มจากการกำหนด pattern ของ E-mail ในรูปแบบ [regular expression](https://www.scaler.com/topics/python/regular-expression-in-python/) ซึ่งโดยปกติแล้ว E-mail pattern จะมีรูปแบบคือ [e-mail user]@[domain name] 
 
 จากนั้นใช้งาน function re.search() ทำการหา pattern ที่เรากำหนดไว้ ตรวจหา input ที่รับเข้ามา ว่าตรงตาม pattern ที่กำหนดไว้หรือไม่ ตาม code ตัวอย่าง ด้านล่าง
 
