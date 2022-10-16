@@ -19,6 +19,7 @@ Microsoft Azure Fundamental | Microsoft
 Microsoft Certified Trainer | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
 Certified Cybersecurity | ISC<sup>2</sup>
+EC-Council Certified Security Specialist | EC-Council
 
 ## AKA
 NonGKoN Hot Head
@@ -41,9 +42,11 @@ NonGKoN Hot Head
 * DevSecOps
   * [Install Portainer](https://nongkon09.github.io/InstallPortainer)
   * [Install K8S by Kubespray](https://nongkon09.github.io/InstallK8SByKubespray)
+  * [Docker image vulnerability scan by Docker desktop](https://nongkon09.github.io/ScanDockerImageWithDockerExt)
 
 * Linux Administrator
   * [Change Linux Default NIC name to eth](https://nongkon09.github.io/ChangeDefaultNICnameLinux)
+  * [NGINX HA by Keepalived](https://nongkon09.github.io/NginxHAbyKeepalived)
 
 * Public key infrastructure
   * [Build easy CA by EasyRSA](https://nongkon09.github.io/BuildCAbyEasyRSA)
