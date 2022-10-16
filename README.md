@@ -18,6 +18,7 @@ MCSA Windows Server 2016 | Microsoft
 Microsoft Azure Fundamental | Microsoft
 Microsoft Certified Trainer | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
+Certified Cybersecurity | ISC<sup>2</sup>
 
 ## AKA
 NonGKoN Hot Head
