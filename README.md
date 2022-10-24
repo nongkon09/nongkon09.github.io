@@ -43,6 +43,7 @@ NonGKoN Hot Head
   * [Install Portainer](https://nongkon09.github.io/InstallPortainer)
   * [Install K8S by Kubespray](https://nongkon09.github.io/InstallK8SByKubespray)
   * [Docker image vulnerability scan by Docker desktop](https://nongkon09.github.io/ScanDockerImageWithDockerExt)
+  * [K8s Component](https://nongkon09.github.io/K8sComponent)
 
 * Linux Administrator
   * [Change Linux Default NIC name to eth](https://nongkon09.github.io/ChangeDefaultNICnameLinux)
