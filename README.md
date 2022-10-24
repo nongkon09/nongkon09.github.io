@@ -45,6 +45,7 @@ NonGKoN Hot Head
   * [Docker image vulnerability scan by Docker desktop](https://nongkon09.github.io/ScanDockerImageWithDockerExt)
   * [K8s Component](https://nongkon09.github.io/K8sComponent)
   * [K8s Architecture](https://nongkon09.github.io/K8sArchitecture)
+  * [K8s Kubectl](https://nongkon09.github.io/K8sKubectl)
 
 * Linux Administrator
   * [Change Linux Default NIC name to eth](https://nongkon09.github.io/ChangeDefaultNICnameLinux)
