@@ -32,13 +32,19 @@ kubectl apply -f nginx-deployment.yaml
 
 ### Status of different K8s components
 
+```sh
 kubectl get nodes | pod | services | replicaset | deployment
+```
+
+___
 
 | Debugging pods||
 | -- | -- |
 | Log to console | kubectl logs [pod name] |
 | Get interactive terminal | kubectl exec -it [pod name] -- bin/bash |
 | Get info about pod | kubectl describe pod [pod name] |
+
+___
 
 | Use configuration file for CRUD||
 | -- | -- |
