@@ -8,7 +8,11 @@ ___
 Course outline
 -   Introduction to DevSecOps
 -   Plan
-    -   Secure Plan stage
+    -   Requirement gathering techniques
+    -   Agile epic
+    -   Security requirements
+    -   Risk Assessment
+    -   Planning tools
 -   Code
     -   Secure Code stage
 -   Build
