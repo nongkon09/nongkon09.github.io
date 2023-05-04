@@ -7,24 +7,15 @@ ___
 
 Course outline
 -   Introduction to DevSecOps
--   Plan
-    -   Requirement gathering techniques
-    -   Agile epic
-    -   Security requirements
-    -   Risk Assessment
-    -   Planning tools
--   Code
-    -   Secure Code stage
--   Build
-    -   Secure Build stage
--   Test
-    -   Secure Test stage
--   Release
-    -   Secure Release stage
--   Deploy
-    -   Secure Deploy stage
--   Operate
-    -   Secure Operate stage
--   Monitor
-    -   Secure Monitor stage
--   DevSecOps Summary and Best Practice
+-   Continuous Integration and Continuous Delivery
+-   Container Technology and Container Security
+-   Shiftleft Security
+-   Security Requirements
+-   Threat Modeling
+-   Static Application Security Testing
+-   Software Composition Analysis
+-   Dynamic Application Security Testing
+-   Vulnerability Scan
+-   Secret Management
+-   Penetration Testing
+-   Application Monitoring and Security Incident and Event Mangaement
