@@ -44,6 +44,9 @@ Slide [Link](https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93v
     -   Tool ควรจะอยู่ที่ส่วนไหนของ DevOps pipeline
     -   License ของ tool เป็นอย่างไร (ถ้าเป็น Opensource ให้อธิบาย รูปแบบของ License)
 
+
+## <u>What we learn<u>
+
 | Week   |      Lecture      |  LAB |
 |----------|:-------------:|------:|
 | 1 |  Introduction to DevSecOps | Git Version control |
