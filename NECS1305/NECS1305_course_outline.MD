@@ -7,7 +7,7 @@ ___
 
 ___
 
-<u>Course outline<u>
+## <u>Course outline<u>
 -   Introduction to DevSecOps
 -   Continuous Integration and Continuous Delivery
 -   Container Technology and Container Security
@@ -22,9 +22,30 @@ ___
 -   Penetration Testing
 -   Application Monitoring and Security Incident and Event Mangaement
 
+## <u>Scoring Criteria<u>
+| No.   |      Subject      |  Percentage |
+|----------|:-------------:|------:|
+| 1 |  Final exam   |   30  |
+| 2 |  Midterm exam |   20  |
+| 3 |  LAB exam |   20  |
+| 4 |  LAB Group work   |   10  |
+| 5 |  Lecture Presentation |   10  |
+| 6 |  Class attend |   10  |
+
+## <u>Class Material<u>
+Slide : https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93vtCcsK?usp=share_link
+
+## <u>Lecture Presentation<u>
+Link register : https://docs.google.com/spreadsheets/d/1HzgVqBSQaW3XRNKtT431gZ_53hwLYYIYk0qEDF6yJKc/edit?usp=sharing
+Tools : https://digital.ai/learn/devops-periodic-table/
+<u>Topic<u>
+    -   Tool ใช้ประโยชน์อะไร
+    -   Tool ควรจะอยู่ที่ส่วนไหนของ DevOps pipeline
+    -   License ของ tool เป็นอย่างไร (ถ้าเป็น Opensource ให้อธิบาย รูปแบบของ License)
+
 | Week   |      Lecture      |  LAB |
 |----------|:-------------:|------:|
-| 1 |  Introduction to DevSecOps | Github |
+| 1 |  Introduction to DevSecOps | Git Version control |
 | 2 |    TBD   |   TBD |
 | 3 |    TBD   |   TBD |
 | 4 |    TBD   |   TBD |
