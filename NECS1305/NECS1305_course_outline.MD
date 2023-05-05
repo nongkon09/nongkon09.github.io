@@ -25,13 +25,13 @@ ___
 ## <u>Scoring Criteria<u>
 
 | No.   |      Subject      |  Percentage |
-|:----------:|:-------------:|:------:|
-| 1 |  Final exam   |   30  |
-| 2 |  Midterm exam |   20  |
-| 3 |  LAB exam |   20  |
-| 4 |  LAB Group work   |   10  |
-| 5 |  Lecture Presentation |   10  |
-| 6 |  Class attend |   10  |
+|:----------:|:-------------|:------:|
+| 1 |  Final exam   |   30%  |
+| 2 |  Midterm exam |   20%  |
+| 3 |  LAB exam |   20%  |
+| 4 |  LAB Group work   |   10%  |
+| 5 |  Lecture Presentation |   10%  |
+| 6 |  Class attend |   10%  |
 
 ## <u>Class Material<u>
 Slide [Link](https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93vtCcsK?usp=share_link)
