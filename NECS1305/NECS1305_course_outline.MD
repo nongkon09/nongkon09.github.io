@@ -37,12 +37,12 @@ ___
 Slide [Link](https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93vtCcsK?usp=share_link)
 
 ## <u>Lecture Presentation<u>
-Link register [Link](https://docs.google.com/spreadsheets/d/1HzgVqBSQaW3XRNKtT431gZ_53hwLYYIYk0qEDF6yJKc/edit?usp=sharing)
-Tools ref [Link](https://digital.ai/learn/devops-periodic-table/)
-<u>Topic<u>
--   Tool ใช้ประโยชน์อะไร
--   Tool ควรจะอยู่ที่ส่วนไหนของ DevOps pipeline
--   License ของ tool เป็นอย่างไร (ถ้าเป็น Opensource ให้อธิบาย รูปแบบของ License)
+-   Link register [Link](https://docs.google.com/spreadsheets/d/1HzgVqBSQaW3XRNKtT431gZ_53hwLYYIYk0qEDF6yJKc/edit?usp=sharing)
+-   Tools ref [Link](https://digital.ai/learn/devops-periodic-table/)
+-   <u>Topic<u>
+    -   Tool ใช้ประโยชน์อะไร
+    -   Tool ควรจะอยู่ที่ส่วนไหนของ DevOps pipeline
+    -   License ของ tool เป็นอย่างไร (ถ้าเป็น Opensource ให้อธิบาย รูปแบบของ License)
 
 | Week   |      Lecture      |  LAB |
 |----------|:-------------:|------:|
