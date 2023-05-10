@@ -9,18 +9,12 @@ ___
 
 ## <u>Course outline<u>
 -   Introduction to DevSecOps
--   Continuous Integration and Continuous Delivery
--   Container Technology and Container Security
--   Shiftleft Security
--   Security Requirements
--   Threat Modeling
--   Static Application Security Testing
--   Software Composition Analysis
--   Dynamic Application Security Testing
--   Vulnerability Scan
--   Secret Management
--   Penetration Testing
--   Application Monitoring and Security Incident and Event Mangaement
+-   Security Principles and Best Practices
+-   Continuous Integration and Continuous Deployment (CI/CD)
+-   Infrastructure as Code (IaC) Security
+-   Threat Modeling and Risk Assessment
+-   Security Operations (SecOps)
+-   Security Automation Tools
 
 ## <u>Scoring Criteria<u>
 
@@ -45,7 +39,7 @@ Slide [Link](https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93v
     -   License ของ tool เป็นอย่างไร (ถ้าเป็น Opensource ให้อธิบาย รูปแบบของ License)
 
 
-## Lecture ##
+## <u>Lecture<u> ##
 
 ### Week 1-2 : Introduction to DevSecOps
 -   Overview of DevOps and Security
