@@ -45,23 +45,43 @@ Slide [Link](https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93v
     -   License ของ tool เป็นอย่างไร (ถ้าเป็น Opensource ให้อธิบาย รูปแบบของ License)
 
 
-## <u>What we learn<u>
+## Lecture ##
 
-| Week   |      Lecture      |  LAB |
-|:----------:|:-------------:|:------:|
-| 1 |  Introduction to DevSecOps | Git Version control |
-| 2 |    TBD   |   TBD |
-| 3 |    TBD   |   TBD |
-| 4 |    TBD   |   TBD |
-| 5 |    TBD   |   TBD |
-| 6 |    TBD   |   TBD |
-| 7 |    TBD   |   TBD |
-| 8 |    TBD   |   TBD |
-| 9 |    TBD   |   TBD |
-| 10 |    TBD   |   TBD |
-| 11 |    TBD   |   TBD |
-| 12 |    TBD   |   TBD |
-| 13 |    TBD   |   TBD |
-| 14 |    TBD   |   TBD |
-| 15 |    TBD   |   TBD |
+### Week 1-2 : Introduction to DevSecOps
+-   Overview of DevOps and Security
+-   Understanding the DevSecOps model
+-   The benefits of DevSecOps
+
+### Week 3-4 : Security Principles and Best Practices
+-   Secure coding practices
+-   OWASP Top 10 vulnerabilities
+-   Security testing techniques
+
+### Week 5-6 : Continuous Integration and Continuous Deployment (CI/CD)
+-   CI/CD principles and practices
+-   Securing the CI/CD pipeline
+-   Automated testing and deployment
+
+### Week 7-8 : Infrastructure as Code (IaC) Security
+-   Introduction to IaC
+-   Securing the cloud environment
+-   Container security
+
+### Week 9-10 : Threat Modeling and Risk Assessment
+-   Threat modeling methodologies
+-   Risk assessment techniques
+-   Mitigating security risks
+
+### Week 11-12 : Security Operations (SecOps)
+-   Security incident management
+-   Security monitoring and alerting
+-   Compliance and regulations
+
+### Week 13-14 : Security Automation Tools
+-   Security testing tools
+-   Vulnerability scanners
+-   Code analysis tools
+
+### Week 15 (3 hours): 
+-   Review and Assessment
 
