@@ -76,6 +76,5 @@ Slide [Link](https://drive.google.com/drive/folders/1y8sIRnEyANl8b0N7At7XYive93v
 -   Vulnerability scanners
 -   Code analysis tools
 
-### Week 15 (3 hours): 
--   Review and Assessment
+### Week 15 : Review and Assessment
 
