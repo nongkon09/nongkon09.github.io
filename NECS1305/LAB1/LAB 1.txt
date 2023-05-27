@@ -91,4 +91,18 @@ git push -u origin main
 
 Install Jenkins
 
-podman run -d -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home --name jenkins docker.io/jenkins/jenkins:lts-jdk11
+docker run -d -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts-jdk11
+
+docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+
+$ sudo vim /etc/yum.repos.d/trivy.repo
+[trivy]
+name=Trivy repository
+baseurl=https://aquasecurity.github.io/trivy-repo/rpm/releases/$releasever/$basearch/
+gpgcheck=0
+enabled=1
+$ sudo yum -y update
+$ sudo yum -y install trivy
+
+docker build -t apache_image:1.0 .
+docker run -d -p 8001:80 --name apache apache_image:1.0
