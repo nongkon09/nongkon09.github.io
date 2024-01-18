@@ -13,6 +13,7 @@ His interests include computer and network security, information security, cloud
 
 Cert name | Issuer
 ------ | ------
+Certified Information Security Manager | ISACA
 Security+ | CompTIA
 MCSA Windows Server 2016 | Microsoft
 Microsoft Azure Fundamental | Microsoft
