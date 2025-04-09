@@ -13,13 +13,14 @@ His interests include computer and network security, information security, cloud
 
 Cert name | Issuer
 ------ | ------
-Certified Information Security Manager | ISACA
+CISSP | ISC2
+CISM | ISACA
+Certified Cybersecurity | ISC2
 Security+ | CompTIA
 MCSA Windows Server 2016 | Microsoft
 Microsoft Azure Fundamental | Microsoft
 Microsoft Certified Trainer | Microsoft
 Introduction to Cybersecurity | Cisco Networking Academy
-Certified Cybersecurity | ISC<sup>2</sup>
 EC-Council Certified Security Specialist | EC-Council
 
 ## AKA
